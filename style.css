@@ -989,13 +989,13 @@ display: flex;
   scroll-behavior: smooth;
   justify-content: left;
   }
- .tndsrvimgss,.tndsrvimg12{
+ .tndsrvimgss,.tndsrvimg12,.smimg,.cs2{
   -ms-overflow-style: none; /* Edge, Internet Explorer */
   scrollbar-width: none; /* Firefox */
   overflow-y: scroll;
 }
 
-.tndsrvimgss,.tndsrvimg12::-webkit-scrollbar {
+.tndsrvimgss,.tndsrvimg12,.smimg,.cs2::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
   .asspml{
