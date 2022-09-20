@@ -195,6 +195,7 @@ body {
 }
 .smimg {
   display: flex;
+  overflow-x: scroll;
 }
 .sg {
   width: 45%;
@@ -988,6 +989,15 @@ display: flex;
   scroll-behavior: smooth;
   justify-content: left;
   }
+ .tndsrvimgss{
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+}
+
+.tndsrvimgss::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
   .asspml{
     flex-direction:column;
         margin: 17px 0px 41px 27px;
